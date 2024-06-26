@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #ecb3e0;;
+}
+.signup-form{
+    width:300px;
+    padding:20px;
+    text-align:center;
+    background:url(arkaplan.jpg);
+    position:absolute;
+    top:50%; /*hizzalama*/
+    left:50%;
+    transform:translate(-50%,-50%);
+    overflow:hidden; /* Taşmayı engeller*/
+}
+.signup-form h1{ 
+    margin-top:100px; /*Yukardan boşluk bıraktı*/
+    color:#776d75;
+    font-size:40px;
+}
+.signup-form input{
+    display:block;  /*Alt alta sıralamak için block etiketi yaptık*/
+    width:100%; /*Genişliğini arttırıyoruz*/
+    padding: 0 16px;  /*Soldan ve sağdan 16 pxlik boşluk bıraktı inputta*/
+    height:44px; 
+    text-align:center; /*Yazıyı ortaladık*/
+    box-sizing:border-box; /*hepsi eşit konuma gelir*/
+    border:none; /*Kenarlıkları kaldırdı*/
+}
+.txt{
+    margin: 20px 0; /*İnput kutuları arasında boşluk yaptı*/
+    border-radius:  12px;
+}
+.signup-btn{
+    margin-top:60px; 
+    margin-bottom: 20px; /*alt*/
+    background-color: rgb(240, 137, 209);
+    color:#fff;
+    border-radius:44px;
+    cursor:pointer;
+    transition: 0.8s;
+    display:block;
+}
+.signup-btn:hover{  /*Üstüne gelindiği zaman*/
+    transform:scale(0.96);
+    background:#fff;
+    color:#776d75;
+}
+.signup-form a{
+    text-decoration: none; /*Altındaki çizgi kaldırılıyor*/
+    color:#d80d7d;
+    font-size:16px;
+    padding:10px; /*yazı ile etiketin arası açılıyor*/
+    transition:0.8s;
+    display:block;
+}
+.signup-form a:hover{
+    color:rgb(12, 12, 12);
+}
